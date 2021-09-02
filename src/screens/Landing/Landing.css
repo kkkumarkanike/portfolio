@@ -1,0 +1,91 @@
+*{
+  overflow: hidden;
+}
+.landing{
+     min-height: 100vh;
+     background-color: #282c34;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin: 0;
+     padding: 0;
+}
+.rollname{
+     color: white;
+     font-size: 40px;
+     margin: 0;
+     padding: 0;
+     font-weight: bold;
+}
+.tech{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.each-tech{
+     margin-left: 5px;
+     margin-right: 5px;
+     color: #aaa;
+     font-weight: bold;
+}
+.banner{
+     width: 230px;
+     height: 230px;
+     border-radius: 1000px;
+     margin: 10px 0;
+}
+.name{
+     color: white;
+     font-size: 25px;
+     margin: 10px 0;
+     padding: 0;
+}
+.social{
+     padding-top: 2rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.social-icon{
+     width: 30px;
+     height: 30px;
+     margin: 0 1rem;
+}
+.bottom-nav{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 0.5rem;
+}
+.bottom-nav-links{
+     color: white;
+     font-size: 13px;
+     text-decoration: none;
+     margin : 0 0.8rem;
+     margin-top: 2rem;
+}
+.social-apps{
+     margin-top: 5px;
+}
+@media (max-width : 480px) {
+     .rollname{
+          font-size: 25px;
+     }
+     .name{
+          font-size: 16px;
+     }
+     .social-icon{
+          width: 25px;
+          height: 25px;
+          margin: 0 1rem ;
+     }
+     .each-tech{
+          margin-left: 5px;
+          margin-right: 5px;
+          color: #aaa;
+          font-weight: bold;
+          font-size: 13px;
+     }
+}
